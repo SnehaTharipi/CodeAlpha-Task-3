@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alekhya's Portfolio</title>
+  <link rel="stylesheet" href="protofolio.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi! I'm <strong>Alekhya</strong>, a final-year Computer Science student specializing in AI and Machine Learning. Passionate about building impactful software solutions through innovative technologies.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech in Computer Science (AI & ML):</strong> St. Peter’s Engineering College, CGPA: 8.87 (2021-2025)</li>
+        <li><strong>Higher Secondary:</strong> Sri Chaitanya Junior Kalasala, CGPA: 9.28 (2019-2021)</li>
+        <li><strong>High School:</strong> St. Anthony’s High School, CGPA: 9.7 (2018-2019)</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">Java</div>
+        <div class="skill-item">Python</div>
+        <div class="skill-item">C (Basics)</div>
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript (Basics)</div>
+        <div class="skill-item">SQL</div>
+        <div class="skill-item">Oracle Database</div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Partial FIR System</h3>
+        <p>Developed a website for online case filing using HTML, CSS, and JavaScript. Enabled location-specific options for user convenience.</p>
+      </div>
+      <div class="project-card">
+        <h3>Fake Account Detection</h3>
+        <p>Created a machine learning model using Gradient Boosting Algorithm to enhance social media security by detecting fake accounts.</p>
+      </div>
+      <div class="project-card">
+        <h3>Employee Management System</h3>
+        <p>Designed a Java-based system to manage employee records, attendance, and payroll using OOP principles.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-status"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alekhya's Portfolio</p>
+  </footer>
+
+  <script src="protofolio.js"></script>
+</body>
+</html>
